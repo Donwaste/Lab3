@@ -1,4 +1,3 @@
-document.addEventListener('DOMContentLoaded', function() {
     function btnController() {
         var drop = document.querySelector('.drop');
         var over = document.querySelector('.overlay');
@@ -15,4 +14,3 @@ document.addEventListener('DOMContentLoaded', function() {
 
     document.querySelector('.btn').addEventListener('click', btnController);
     document.querySelector('.overlay').addEventListener('click', removeActive);
-});
